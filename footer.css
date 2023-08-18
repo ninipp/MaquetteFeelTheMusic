@@ -1,0 +1,53 @@
+/* Ceci est le style pour le footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #2F3038;;
+  color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 92vh;
+    margin-left: -1vw;
+    margin-right: -1vw;
+    background-color: #202027;
+}
+
+ul.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    margin-left: 60px;
+}
+
+ul.socialNet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin-right: 60px;
+}
+
+ul.socialNet img{
+    margin-right: 10px;
+    width: 15px;
+    aspect-ratio: 1;
+}
+
+a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-decoration-line: none;
+}

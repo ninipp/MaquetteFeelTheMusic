@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #2F3038;
+  color: white;
+}
+
+div.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 55vh;
+  /* margin-bottom: 25vh; */
+}
+
+section.leftside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+h1{
+  font-size: 2.5em;
+}
+section.leftside div{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-content: stretch;
+}
+
+a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #202027;
+  width: 80px;
+  height: 90px;
+}
+section.leftside div img{
+  width: 45px;
+  aspect-ratio: 1;
+}
+
+section.rightside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section.rightside img{
+  width: 15%;
+  aspect-ratio: 1;
+  
+}
+
+img.position1{
+  position: absolute;
+  margin-left: -397px;
+  margin-bottom: 50vh;
+}
+
+img.position2{
+  position: absolute;
+  margin-left: 100px;
+  margin-bottom: -2vh;
+}
+
+img.position3{
+position: absolute;
+margin-left: -397px;
+margin-bottom: -2vh;
+}
+
+img.position4{
+  position: absolute;
+  margin-left: 100px;
+  margin-bottom: 50vh;
+}
+
