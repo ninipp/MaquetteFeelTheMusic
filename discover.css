@@ -4,36 +4,60 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: #2F3038;
   color: white;
+  /* overflow: hidden; */
+  /* width: max-content; */
+  border: 5px solid rgb(45, 0, 128);
+  float: none;
 }
+
+/* Container principale */
 
 div.container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  margin-top: 55vh;
+  gap: 150px;
+  /* justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end; */
+  /* margin-top: 25vh; */
+  border: 5px solid green;
   /* margin-bottom: 25vh; */
 }
+
+/* Premiere section en dessous du header et a gauche */
 
 section.leftside{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: start;
+  justify-content: start;
+  min-width: 40%;
+  /* align-items: start;
+  align-content: center; */
+  border: 5px solid rgb(107, 128, 0);
 }
+
+/* le gros titre dans cette section */
 
 h1{
   font-size: 2.5em;
+  font-weight: 100;
+  word-spacing: 26px;
+  letter-spacing: 7px;
 }
+
+/* La navigation avec les petites icones */
+
 section.leftside div{
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 159px;
   align-content: stretch;
 }
 
-a{
+/* les liens dans cette navigation au dessus */
+
+section.leftside a{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,45 +66,70 @@ a{
   width: 80px;
   height: 90px;
 }
+
+/* les icones dans la div de navigation */
+
 section.leftside div img{
   width: 45px;
   aspect-ratio: 1;
 }
 
+p{
+  letter-spacing: 3px;
+}
+
+
+/* la section 2 a droite et directement en dessous du header  */
+
 section.rightside{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content:center; */
+  /* align-items:start; */
+  min-width: 30%;
+  border: 5px solid rgb(128, 0, 105);
+
 }
+
+
+/* les images contenues dans la section rightside */
 
 section.rightside img{
-  width: 15%;
-  aspect-ratio: 1;
-  
+  width: 18%;
+  aspect-ratio: 1; 
 }
 
+/* les images un a un pour la position
+
 img.position1{
-  position: absolute;
-  margin-left: -397px;
-  margin-bottom: 50vh;
+  position: relative;
+  margin-left: 15%;
+  margin-bottom: 26vh;
 }
 
 img.position2{
-  position: absolute;
-  margin-left: 100px;
-  margin-bottom: -2vh;
+  position: relative;
+  margin-left: -1%;
+  margin-bottom: 26vh;
 }
 
 img.position3{
-position: absolute;
-margin-left: -397px;
-margin-bottom: -2vh;
+position: relative;
+margin-left: -20%;
+margin-bottom: 13vh;
 }
 
 img.position4{
-  position: absolute;
-  margin-left: 100px;
-  margin-bottom: 50vh;
-}
+  position: relative;
+  margin-left: -1%;
+  margin-bottom: 13vh;
+} */
+
+
+/* resolution des problemes
+1. les photos en position stable 👍
+2. le scrolling 
+3. taille des sections left et right-side 👍
+4. le background des <a> du header 👍
+*/
 

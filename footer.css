@@ -13,9 +13,9 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; 
-    margin-top: 92vh;
-    margin-left: -1vw;
-    margin-right: -1vw;
+    margin-top: 48vh;
+    /* margin-left: -1vw; */
+    /* margin-right: -1vw; */
     background-color: #202027;
 }
 
