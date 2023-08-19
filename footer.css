@@ -11,11 +11,8 @@ body{
 footer{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between; 
-    margin-top: 48vh;
-    /* margin-left: -1vw; */
-    /* margin-right: -1vw; */
+    margin: auto -1%;
     background-color: #202027;
 }
 
@@ -40,8 +37,8 @@ ul.socialNet{
 }
 
 ul.socialNet img{
-    margin-right: 10px;
-    width: 15px;
+    /* margin-right: 10px; */
+    width: 20%;
     aspect-ratio: 1;
 }
 
@@ -50,4 +47,6 @@ a{
     font-size: 1em;
     text-decoration: none;
     text-decoration-line: none;
+    display: flex;
+    gap: 7%;
 }
