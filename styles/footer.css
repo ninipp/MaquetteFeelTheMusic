@@ -1,12 +1,3 @@
-/* Ceci est le style pour le footer */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-body{
-  font-family: 'Poppins', sans-serif;
-  background-color: #2F3038;;
-  color: white;
-}
 
 footer{
     display: flex;
@@ -38,15 +29,11 @@ ul.socialNet{
 
 ul.socialNet img{
     /* margin-right: 10px; */
-    width: 20%;
+    width: 22%;
     aspect-ratio: 1;
+    margin-right: 5px;
+    margin-top: 5px;
+
 }
 
-a{
-    color: white;
-    font-size: 1em;
-    text-decoration: none;
-    text-decoration-line: none;
-    display: flex;
-    gap: 7%;
-}
+
